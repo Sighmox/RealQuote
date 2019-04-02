@@ -14,6 +14,9 @@
 		79A9A00C225414A700E74BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A9A00A225414A700E74BF9 /* LaunchScreen.storyboard */; };
 		79A9A017225414A700E74BF9 /* RealQuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9A016225414A700E74BF9 /* RealQuoteTests.swift */; };
 		79A9A022225414A700E74BF9 /* RealQuoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9A021225414A700E74BF9 /* RealQuoteUITests.swift */; };
+		79A9A0302254165B00E74BF9 /* QuoteFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9A02F2254165B00E74BF9 /* QuoteFetcher.swift */; };
+		79A9A0322254179800E74BF9 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9A0312254179800E74BF9 /* Quote.swift */; };
+		79A9A03422541B0E00E74BF9 /* QuoteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A9A03322541B0E00E74BF9 /* QuoteDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		79A9A01D225414A700E74BF9 /* RealQuoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealQuoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A9A021225414A700E74BF9 /* RealQuoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealQuoteUITests.swift; sourceTree = "<group>"; };
 		79A9A023225414A700E74BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A9A02F2254165B00E74BF9 /* QuoteFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteFetcher.swift; sourceTree = "<group>"; };
+		79A9A0312254179800E74BF9 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		79A9A03322541B0E00E74BF9 /* QuoteDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				79A9A001225414A300E74BF9 /* AppDelegate.swift */,
 				79A9A003225414A300E74BF9 /* ViewController.swift */,
 				79A9A005225414A300E74BF9 /* Main.storyboard */,
+				79A9A02F2254165B00E74BF9 /* QuoteFetcher.swift */,
+				79A9A03322541B0E00E74BF9 /* QuoteDelegate.swift */,
+				79A9A0312254179800E74BF9 /* Quote.swift */,
 				79A9A008225414A700E74BF9 /* Assets.xcassets */,
 				79A9A00A225414A700E74BF9 /* LaunchScreen.storyboard */,
 				79A9A00D225414A700E74BF9 /* Info.plist */,
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A9A0322254179800E74BF9 /* Quote.swift in Sources */,
 				79A9A004225414A300E74BF9 /* ViewController.swift in Sources */,
+				79A9A0302254165B00E74BF9 /* QuoteFetcher.swift in Sources */,
+				79A9A03422541B0E00E74BF9 /* QuoteDelegate.swift in Sources */,
 				79A9A002225414A300E74BF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
